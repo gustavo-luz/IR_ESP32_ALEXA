@@ -1,30 +1,31 @@
 # IR_ESP32_ALEXA
 
-pra cada void novo que adicionar,
-descobrir dispositivo novo em outros e vai bestar o nome ar que voce definiu
-com o mesmo esp pode configurar varios
+for each new void you add,
+discover new device in others and it will bestate the ar name you defined
+with the same esp you can configure several
 
-ver esse pra ver como fazer certinho com o ar
+watch this one to see how to do it right with the air
 https://github.com/nugoo1/Alexa-IR-Remote/blob/master/Office_AC/Office_AC.ino
 
-ver as libs do irremote e tem as marcas dos aparelhos
-se n, captura o raw e manda como o iralexaotherdevices (salvar esse q fiz) - atualmente iralexav2
+see the irremote libs and have the device brands
+if not, capture the raw and send it as iralexaotherdevices (save this one I did) - currently iralexav2
 
 
-grava tudo em ingles e depois coloca a legenda
-falar o básico q tem q saber de eletronica e automação:
-ter fios, protoboard, um esp32, o hardware
-motivação: não achei videos 
+Future ideas:
+ 
+Record everything and then put the subtitles
+talk about the basics you need to know about electronics and automation:
+having wires, breadboard, an esp32, the hardware
+Motivation: I didn't find videos
 
-ide do arduino instalada, placa do esp32 instalada: deixar vídeos q explicam isso
-1 video: processo geral,explicando tudo o que será feito e a automação funcionando
-2 vídeo: gravando os codigos nec e 
+arduino ide installed, esp32 board installed: leave videos that explain this
+1 video: general process, explaining everything that will be done and the automation working
+2 video: recording the nec and e codes
 
-APLICATIVO DA ALEXA, CONTROLE POR LÁ TB
+ALEXA APP, CONTROL THERE also
 
-seção especial samsung
-especial: rotinas da alexa
-especial: ar condicionado combinando comandos
-pode mandar com o metodo raw, com o uint8_t, nec ou com a lib da samsung
-uint tem q ser 14
-
+samsung special section
+special: alexa routines
+special: air conditioning by combining controls
+you can send it with the raw method, with the uint8_t, nec or with the samsung lib
+uint has to be 14
